@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9541555-8a56-4bd6-b216-31d8dc5cf770" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/OOps/CarApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOps/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOps/StudentApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dsa/AsteroidCollision.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dsa/NextGreaterNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOps/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOps/Car.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +32,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AsteroidCollision.executor": "Run",
     "Application.CarApp.executor": "Run",
     "Application.StackDSA.executor": "Run",
     "Application.Student.executor": "Run",
@@ -43,13 +42,26 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "me",
+    "git-widget-placeholder": "05/04/2026Java",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/IdeaProjects/Kodnest",
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CarApp">
+  <component name="RunManager" selected="Application.AsteroidCollision">
+    <configuration name="AsteroidCollision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Dsa.AsteroidCollision" />
+      <module name="Kodnest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Dsa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CarApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OOps.CarApp" />
       <module name="Kodnest" />
@@ -104,6 +116,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AsteroidCollision" />
         <item itemvalue="Application.CarApp" />
         <item itemvalue="Application.StudentApp" />
         <item itemvalue="Application.Student" />
