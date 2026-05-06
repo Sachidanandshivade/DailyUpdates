@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9541555-8a56-4bd6-b216-31d8dc5cf770" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Dsa/AsteroidCollision.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dsa/NextGreaterNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOps/Dog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +33,7 @@
   "keyToString": {
     "Application.AsteroidCollision.executor": "Run",
     "Application.CarApp.executor": "Run",
+    "Application.Dog.executor": "Run",
     "Application.StackDSA.executor": "Run",
     "Application.Student.executor": "Run",
     "Application.StudentApp.executor": "Run",
@@ -48,7 +48,7 @@
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.AsteroidCollision">
+  <component name="RunManager" selected="Application.Dog">
     <configuration name="AsteroidCollision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Dsa.AsteroidCollision" />
       <module name="Kodnest" />
@@ -75,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackDSA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Dsa.StackDSA" />
+    <configuration name="Dog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOps.Dog" />
       <module name="Kodnest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Dsa.*" />
+          <option name="PATTERN" value="OOps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Dog" />
         <item itemvalue="Application.AsteroidCollision" />
         <item itemvalue="Application.CarApp" />
         <item itemvalue="Application.StudentApp" />
         <item itemvalue="Application.Student" />
-        <item itemvalue="Application.StackDSA" />
       </list>
     </recent_temporary>
   </component>
