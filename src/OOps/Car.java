@@ -2,28 +2,21 @@ package OOps;
 
 public class Car {
     String brand;
-    int NoOfWheels;
-    double speed;
-    double width;
-    double height;
-    int noOfEngines;
-    boolean haveExhaust;
+    String  EngineType;
+    String Color;
+    int NOofWheels;
+
 
 
     void drive(){
-
+        System.out.println(brand + " Car drives at speed: " +100);
     }
 
     void start(){
-
+        System.out.println( brand  + " Car engine has been Started");
     }
     void stop(){
+        System.out.println(brand +" Car Engine Stopped");
+    }
 
-    }
-    public static void main(String[] args){
-        Car c1 = new Car(); // c1 is called as object reference not variable
-        c1.drive();
-        c1.start();
-        c1.stop();
-    }
 }
