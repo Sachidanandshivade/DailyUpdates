@@ -13,6 +13,8 @@ public class Scanners {
 
         sc.close();
         System.out.print("this is "+ name + " with "+id);
+        // System is a class belonging to lang package, out is variable belonging to print stream and println is a predefined method belonging to Print stream class
+
     }
 
 }
