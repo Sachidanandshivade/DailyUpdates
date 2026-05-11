@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9541555-8a56-4bd6-b216-31d8dc5cf770" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/OOps/Comments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOps/Scanners.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dsa/CentralUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dsa/ReorderLinkedLIst.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +34,7 @@
   "keyToString": {
     "Application.AsteroidCollision.executor": "Run",
     "Application.CarApp.executor": "Run",
+    "Application.CentralUser.executor": "Run",
     "Application.Dog.executor": "Run",
     "Application.Scanners.executor": "Run",
     "Application.StackDSA.executor": "Run",
@@ -45,13 +46,13 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "06/05/2026",
+    "git-widget-placeholder": "07/06/2026",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/IdeaProjects/Kodnest",
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Scanners">
+  <component name="RunManager" selected="Application.CentralUser">
     <configuration name="AsteroidCollision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Dsa.AsteroidCollision" />
       <module name="Kodnest" />
@@ -65,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOps.CarApp" />
+    <configuration name="CentralUser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Dsa.CentralUser" />
       <module name="Kodnest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOps.*" />
+          <option name="PATTERN" value="Dsa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CentralUser" />
         <item itemvalue="Application.Scanners" />
         <item itemvalue="Application.ValidParentheses" />
         <item itemvalue="Application.Dog" />
         <item itemvalue="Application.AsteroidCollision" />
-        <item itemvalue="Application.CarApp" />
       </list>
     </recent_temporary>
   </component>
@@ -162,6 +163,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Dsa/CentralUser.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Kodnest$Student.ic" NAME="Student Coverage Results" MODIFIED="1777980323890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
