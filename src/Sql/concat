@@ -1,0 +1,5 @@
+select concat(field1 , field 2) as name from table;
+
+select concat('111','222') as result;// 111222
+
+select concat('sachi', NULL) as result; // Null
