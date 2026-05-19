@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9541555-8a56-4bd6-b216-31d8dc5cf770" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Dsa/QueueUsingStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dsa/circularQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +38,7 @@
     &quot;Application.Dog.executor&quot;: &quot;Run&quot;,
     &quot;Application.LeftTriangle.executor&quot;: &quot;Run&quot;,
     &quot;Application.Pyramid.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Queue.executor&quot;: &quot;Run&quot;,
     &quot;Application.ReverseStack.executor&quot;: &quot;Run&quot;,
     &quot;Application.ReverseTri.executor&quot;: &quot;Run&quot;,
     &quot;Application.Scanners.executor&quot;: &quot;Run&quot;,
