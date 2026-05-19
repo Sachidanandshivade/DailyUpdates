@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9541555-8a56-4bd6-b216-31d8dc5cf770" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/PatternQuestions/Diamond.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PatternQuestions/LeftTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PatternQuestions/Pyramid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dsa/QueueUsingStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dsa/circularQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,58 +30,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AsteroidCollision.executor": "Run",
-    "Application.CarApp.executor": "Run",
-    "Application.CentralUser.executor": "Run",
-    "Application.Dog.executor": "Run",
-    "Application.LeftTriangle.executor": "Run",
-    "Application.Pyramid.executor": "Run",
-    "Application.Scanners.executor": "Run",
-    "Application.StackDSA.executor": "Run",
-    "Application.Student.executor": "Run",
-    "Application.StudentApp.executor": "Run",
-    "Application.ValidParentheses.executor": "Run",
-    "Application.diamond.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/IdeaProjects/Kodnest",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AsteroidCollision.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CarApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CentralUser.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Dog.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LeftTriangle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Pyramid.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Queue.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseStack.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseTri.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Scanners.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StackDSA.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Student.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StudentApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ValidParentheses.executor&quot;: &quot;Run&quot;,
+    &quot;Application.diamond.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;pattern&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/IdeaProjects/Kodnest&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.ReverseTri">
-    <configuration name="CentralUser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Dsa.CentralUser" />
-      <module name="Kodnest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Dsa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Diamond" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PatternQuestions.Diamond" />
-      <module name="Kodnest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="PatternQuestions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}</component>
+  <component name="RunManager" selected="Application.Queue">
     <configuration name="LeftTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PatternQuestions.LeftTriangle" />
       <module name="Kodnest" />
@@ -109,6 +85,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Queue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Dsa.Queue" />
+      <module name="Kodnest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Dsa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Dsa.ReverseStack" />
+      <module name="Kodnest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Dsa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReverseTri" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PatternQuestions.ReverseTri" />
       <module name="Kodnest" />
@@ -124,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Queue" />
+        <item itemvalue="Application.ReverseStack" />
         <item itemvalue="Application.ReverseTri" />
         <item itemvalue="Application.LeftTriangle" />
         <item itemvalue="Application.Pyramid" />
-        <item itemvalue="Application.Diamond" />
-        <item itemvalue="Application.CentralUser" />
       </list>
     </recent_temporary>
   </component>
