@@ -70,7 +70,6 @@ class circularQueue {
         }
 
         else {
-
             front = (front + 1) % size;
         }
 
