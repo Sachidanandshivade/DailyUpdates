@@ -1,0 +1,18 @@
+/* for class
+ */
+.title {
+    color: black;
+}
+
+/* for id
+ */
+
+#title {
+    color: aqua;
+}
+
+/* for email specific  */
+
+input[type="email"] {
+    background-color: azure;
+}
