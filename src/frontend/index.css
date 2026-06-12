@@ -1,18 +1,14 @@
-/* for class
- */
-.title {
-    color: black;
-}
+#box {
+    height: 30px;
+    width: 200px;
+    margin: 2px;
+    padding: 4px;
+    border: 2px solid aqua;
+    outline: 6px solid antiquewhite;
+    box-shadow:15px 10px 8px yellowgreen;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    overflow: auto;
 
-/* for id
- */
-
-#title {
-    color: aqua;
-}
-
-/* for email specific  */
-
-input[type="email"] {
-    background-color: azure;
 }
