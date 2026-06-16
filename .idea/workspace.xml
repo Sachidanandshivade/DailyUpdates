@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9541555-8a56-4bd6-b216-31d8dc5cf770" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Dsa/Frequency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dsa/LeftRotate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dsa/MoveAllZeros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dsa/Prefix_Sum_Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dsa/RemoveDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dsa/RotateBy_K.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOps/Course.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOps/StudentApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOps/StudentApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,56 +32,56 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AsteroidCollision.executor": "Run",
-    "Application.BFSusingQueue.executor": "Run",
-    "Application.CalFactorial.executor": "Run",
-    "Application.CarApp.executor": "Run",
-    "Application.CentralUser.executor": "Run",
-    "Application.DFS.executor": "Run",
-    "Application.Dog.executor": "Run",
-    "Application.Fibbo.executor": "Run",
-    "Application.Frequency.executor": "Run",
-    "Application.LeftRotate.executor": "Run",
-    "Application.LeftTriangle.executor": "Run",
-    "Application.MoveAllZeros.executor": "Run",
-    "Application.NewPattern.executor": "Run",
-    "Application.NumberChaningPyramid.executor": "Run",
-    "Application.Prefix_Sum_Array.executor": "Run",
-    "Application.Prime.executor": "Run",
-    "Application.Pyramid.executor": "Run",
-    "Application.Queue.executor": "Run",
-    "Application.RemoveDuplicates.executor": "Run",
-    "Application.ReverseStack.executor": "Run",
-    "Application.ReverseTri.executor": "Run",
-    "Application.RotateBy_K.executor": "Run",
-    "Application.Scanners.executor": "Run",
-    "Application.StackDSA.executor": "Run",
-    "Application.Student.executor": "Run",
-    "Application.StudentApp.executor": "Run",
-    "Application.ValidParentheses.executor": "Run",
-    "Application.diamond.executor": "Run",
-    "Application.hallowDiamond.executor": "Run",
-    "Application.hallowTriangle.executor": "Run",
-    "Application.nestedLoop.executor": "Run",
-    "Application.palindromeTriangulur.executor": "Run",
-    "Application.sandclock.executor": "Run",
-    "Application.sixthjune.executor": "Run",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "me",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/IdeaProjects/Kodnest",
-    "list.type.of.created.stylesheet": "CSS",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AsteroidCollision.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BFSusingQueue.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CalFactorial.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CarApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CentralUser.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DFS.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Dog.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Fibbo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Frequency.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LeftRotate.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LeftTriangle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MoveAllZeros.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NewPattern.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumberChaningPyramid.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Prefix_Sum_Array.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Prime.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Pyramid.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Queue.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveDuplicates.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseStack.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseTri.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RotateBy_K.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Scanners.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StackDSA.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Student.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StudentApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ValidParentheses.executor&quot;: &quot;Run&quot;,
+    &quot;Application.diamond.executor&quot;: &quot;Run&quot;,
+    &quot;Application.hallowDiamond.executor&quot;: &quot;Run&quot;,
+    &quot;Application.hallowTriangle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.nestedLoop.executor&quot;: &quot;Run&quot;,
+    &quot;Application.palindromeTriangulur.executor&quot;: &quot;Run&quot;,
+    &quot;Application.sandclock.executor&quot;: &quot;Run&quot;,
+    &quot;Application.sixthjune.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;me&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/IdeaProjects/Kodnest&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\IdeaProjects\Kodnest\src\frontend\html" />
@@ -93,22 +89,9 @@
       <recent name="D:\IdeaProjects\Kodnest\src\frontend" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Prefix_Sum_Array">
+  <component name="RunManager" selected="Application.StudentApp">
     <configuration name="LeftRotate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Dsa.LeftRotate" />
-      <module name="Kodnest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Dsa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MoveAllZeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Dsa.MoveAllZeros" />
       <module name="Kodnest" />
       <extension name="coverage">
         <pattern>
@@ -159,13 +142,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StudentApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOps.StudentApp" />
+      <module name="Kodnest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OOps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StudentApp" />
         <item itemvalue="Application.Prefix_Sum_Array" />
         <item itemvalue="Application.LeftRotate" />
         <item itemvalue="Application.RemoveDuplicates" />
         <item itemvalue="Application.RotateBy_K" />
-        <item itemvalue="Application.MoveAllZeros" />
       </list>
     </recent_temporary>
   </component>
