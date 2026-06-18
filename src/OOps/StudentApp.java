@@ -1,11 +1,24 @@
 package OOps;
 
+import static OOps.Student.display;
+import static OOps.Student.number;
+
 public class StudentApp {
     public static void main(String[] args){
         Student s1 = new Student();
         s1.name= "sachi";
 
-        s1.eat();
+        //static method
+        display();
+
+        // non- static method
+        s1.display1();
+
+        //static variable
+        System.out.println(number);
+
+
+       /* s1.eat();
         s1.sleep();
         System.out.println();
         Course c1 = new Course();
@@ -16,5 +29,6 @@ public class StudentApp {
         c1.start();
         c1.learn();
         c1.end();
+        */
     }
 }
