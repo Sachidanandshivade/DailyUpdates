@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9541555-8a56-4bd6-b216-31d8dc5cf770" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/frontend/html/media.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOps/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOps/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOps/StudentApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOps/StudentApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,9 +13,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
