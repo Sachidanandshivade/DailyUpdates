@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9541555-8a56-4bd6-b216-31d8dc5cf770" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/OOps/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOps/sumOfDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dsa/PalindromeSub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dsa/longestSubString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +68,7 @@
     "Application.diamond.executor": "Run",
     "Application.hallowDiamond.executor": "Run",
     "Application.hallowTriangle.executor": "Run",
+    "Application.longestSubString.executor": "Run",
     "Application.nestedLoop.executor": "Run",
     "Application.palindromeTriangulur.executor": "Run",
     "Application.sandclock.executor": "Run",
@@ -94,20 +95,7 @@
       <recent name="D:\IdeaProjects\Kodnest\src\frontend" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.sumOfDigits">
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sorting.BubbleSort" />
-      <module name="Kodnest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.longestSubString">
     <configuration name="Insertion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Sorting.Insertion" />
       <module name="Kodnest" />
@@ -147,6 +135,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="longestSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Dsa.longestSubString" />
+      <module name="Kodnest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Dsa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="sumOfDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OOps.sumOfDigits" />
       <module name="Kodnest" />
@@ -162,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.longestSubString" />
         <item itemvalue="Application.sumOfDigits" />
         <item itemvalue="Application.Palindrome" />
         <item itemvalue="Application.Insertion" />
         <item itemvalue="Application.SelectionSort" />
-        <item itemvalue="Application.BubbleSort" />
       </list>
     </recent_temporary>
   </component>
