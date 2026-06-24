@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9541555-8a56-4bd6-b216-31d8dc5cf770" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Dsa/PalindromeSub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dsa/longestSubString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dsa/Isomorphic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +44,7 @@
     "Application.Fibbo.executor": "Run",
     "Application.Frequency.executor": "Run",
     "Application.Insertion.executor": "Run",
+    "Application.Isomorphic.executor": "Run",
     "Application.LeftRotate.executor": "Run",
     "Application.LeftTriangle.executor": "Run",
     "Application.MoveAllZeros.executor": "Run",
@@ -95,7 +95,7 @@
       <recent name="D:\IdeaProjects\Kodnest\src\frontend" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.longestSubString">
+  <component name="RunManager" selected="Application.Isomorphic">
     <configuration name="Insertion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Sorting.Insertion" />
       <module name="Kodnest" />
@@ -109,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOps.Palindrome" />
+    <configuration name="Isomorphic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Dsa.Isomorphic" />
       <module name="Kodnest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OOps.*" />
+          <option name="PATTERN" value="Dsa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sorting.SelectionSort" />
+    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOps.Palindrome" />
       <module name="Kodnest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sorting.*" />
+          <option name="PATTERN" value="OOps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Isomorphic" />
         <item itemvalue="Application.longestSubString" />
         <item itemvalue="Application.sumOfDigits" />
         <item itemvalue="Application.Palindrome" />
         <item itemvalue="Application.Insertion" />
-        <item itemvalue="Application.SelectionSort" />
       </list>
     </recent_temporary>
   </component>
