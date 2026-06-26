@@ -2,27 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Transformation</title>
+    <title>Animations</title>
     <style>
-        div {
-            width: 200px;
-            height: 100px;
-            background-color: black;
-            color: white;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 18px;
-            margin: 50px;
+        @keyframes slideIn{
+            0% {
+                transform: translateX(-100%);
+                opacity: 0;
+            }
+            100%{
+                transform: translatex(0);
+                opacity: 1;
+            }
         }
 
-        div:hover {
-            transform:scale(1) skew(10deg,15deg);
-            transform-origin: bottom center;
+        .first{
+            animation-name: slideIn;
+            animation-duration: 2s;
+            animation-timing-function: ease-in;
+            background: conic-gradient(red 20%,yellow 50% , Green 100%);
         }
     </style>
 </head>
 <body>
-<div>Hello How are Youuuuuuuuuuuuuuuu</div>
+    <div class="first" >Welcome to CSS Animations!</div>
 </body>
 </html>
