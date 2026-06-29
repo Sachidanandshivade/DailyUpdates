@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Animations</title>
+    <script src="/JAVA_SCRIPT/hello.js"></script>
+
     <style>
         @keyframes slideIn{
             0% {
@@ -16,6 +18,11 @@
         }
 
         .first{
+            width: 100px;
+            height: 100px;
+            border-radius: 40px;
+            margin: 30px;
+            align-content: center;
             animation-name: slideIn;
             animation-duration: 2s;
             animation-timing-function: ease-in;
@@ -25,5 +32,12 @@
 </head>
 <body>
     <div class="first" >Welcome to CSS Animations!</div>
+    <button onclick="showMessage()">Click Me!</button>
+    <button onclick="hello()">Test Me</button>
+    <script>
+        function showMessage() {
+            alert("Hello, World!")
+        }
+    </script>
 </body>
 </html>
