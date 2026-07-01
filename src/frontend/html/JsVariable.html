@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>variables in JS</title>
+</head>
+<body>
+<script>
+    //older
+    var a = 10;
+    var a = 20;
+    a = 30;
+    console.log(a); //30
+
+    //var - function scoped
+    function name() {
+        var b = 100;
+        console.log(b); //100
+    }
+    name();
+    console.log(b); //Error - Reference Error
+
+    //modern version
+    let a = 10;
+    console.log(a); //10
+    let a = 20; //Error
+    a = 30;
+    console.log(a); //30
+
+    //let & CONST - blocked scoped
+    if(true) {
+        let b = 100;
+        console.log(b); //100
+    }
+    console.log(b); //Error
+</script>
+</body>
+</html>
