@@ -19,4 +19,4 @@ let num = 16;
 let res = (num % 2 === 0) ? "Even" : "Odd";
 document.writeln(res); // Output: Even
 
-document.writeln("<brNormally I can help with things like this, but I don't seem to have access to that content. You can try again or ask me for something else.
+document.writeln("<brNormally I can help with things like this, but I don't seem to have access to that content. You can try again or ask me for something else.")

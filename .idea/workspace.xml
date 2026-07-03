@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9541555-8a56-4bd6-b216-31d8dc5cf770" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JAVA_SCRIPT/Operators.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JAVA_SCRIPT/function.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOps/Fan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOps/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JAVA_SCRIPT/Operators.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/JAVA_SCRIPT/Operators.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/html/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +53,7 @@
     &quot;Application.Isomorphic.executor&quot;: &quot;Run&quot;,
     &quot;Application.LeftRotate.executor&quot;: &quot;Run&quot;,
     &quot;Application.LeftTriangle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.MoveAllZeros.executor&quot;: &quot;Run&quot;,
     &quot;Application.NewPattern.executor&quot;: &quot;Run&quot;,
     &quot;Application.NumberChaningPyramid.executor&quot;: &quot;Run&quot;,
@@ -99,7 +104,7 @@
       <recent name="D:\IdeaProjects\Kodnest\src\frontend" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Encapsulation">
+  <component name="RunManager">
     <configuration name="Encapsulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OOps.Encapsulation" />
       <module name="Kodnest" />
@@ -126,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sliding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Dsa.Sliding" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOps.Main" />
       <module name="Kodnest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Dsa.*" />
+          <option name="PATTERN" value="OOps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,8 +144,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="longestSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Dsa.longestSubString" />
+    <configuration name="Sliding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Dsa.Sliding" />
       <module name="Kodnest" />
       <extension name="coverage">
         <pattern>
@@ -167,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Encapsulation" />
         <item itemvalue="Application.Sliding" />
         <item itemvalue="Application.prefixSum" />
         <item itemvalue="Application.Isomorphic" />
-        <item itemvalue="Application.longestSubString" />
       </list>
     </recent_temporary>
   </component>
