@@ -8,6 +8,11 @@ public class Main {
         System.out.println(t);
         System.out.println(x);
         System.out.println(y);
-
+        JavaDeveloper jav = new JavaDeveloper();
+        PythonDeveloper py = new PythonDeveloper();
+        jav.buildApp();
+        py.buildApp();
+        jav.javaTeam();
+        py.pythonTeam();
     }
 }
