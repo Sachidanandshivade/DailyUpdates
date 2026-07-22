@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9541555-8a56-4bd6-b216-31d8dc5cf770" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JAVA_SCRIPT/Abstraction.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JAVA_SCRIPT/Encapsulation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JAVA_SCRIPT/abstractionExample.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyProject/src/package1/Program1.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyProject/src/package1/Program1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyProject/src/package1/Program2.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyProject/src/package1/Program2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyProject/src/package2/Program4.java" beforeDir="false" afterPath="$PROJECT_DIR$/MyProject/src/package2/Program4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
