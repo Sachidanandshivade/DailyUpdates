@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9541555-8a56-4bd6-b216-31d8dc5cf770" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Dsa/Knapsack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dsa/CoinChange.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +43,7 @@
     "Application.CalFactorial.executor": "Run",
     "Application.CarApp.executor": "Run",
     "Application.CentralUser.executor": "Run",
+    "Application.CoinChange.executor": "Run",
     "Application.DFS.executor": "Run",
     "Application.Dog.executor": "Run",
     "Application.Encapsulation.executor": "Run",
@@ -107,7 +108,20 @@
       <recent name="D:\IdeaProjects\Kodnest\src\frontend" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Knapsack">
+  <component name="RunManager" selected="Application.CoinChange">
+    <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Dsa.CoinChange" />
+      <module name="Kodnest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Dsa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Encapsulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OOps.Encapsulation" />
       <module name="Kodnest" />
@@ -160,26 +174,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sliding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Dsa.Sliding" />
-      <module name="Kodnest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Dsa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CoinChange" />
         <item itemvalue="Application.Knapsack" />
         <item itemvalue="Application.KadaneAlgorithm" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Encapsulation" />
-        <item itemvalue="Application.Sliding" />
       </list>
     </recent_temporary>
   </component>
