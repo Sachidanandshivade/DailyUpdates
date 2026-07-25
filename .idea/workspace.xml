@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9541555-8a56-4bd6-b216-31d8dc5cf770" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Dsa/KokoEatingBananas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dsa/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Dsa/numberOfIslands.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +51,7 @@
     "Application.Encapsulation.executor": "Run",
     "Application.Fibbo.executor": "Run",
     "Application.Frequency.executor": "Run",
+    "Application.Graph.executor": "Run",
     "Application.Insertion.executor": "Run",
     "Application.Isomorphic.executor": "Run",
     "Application.KadaneAlgorithm.executor": "Run",
@@ -110,7 +112,7 @@
       <recent name="D:\IdeaProjects\Kodnest\src\frontend" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.KokoEatingBananas">
+  <component name="RunManager" selected="Application.Graph">
     <configuration name="CapacityToShip" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Dsa.CapacityToShip" />
       <module name="Kodnest" />
@@ -137,8 +139,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KadaneAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Dsa.KadaneAlgorithm" />
+    <configuration name="Graph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Dsa.Graph" />
       <module name="Kodnest" />
       <extension name="coverage">
         <pattern>
@@ -178,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Graph" />
         <item itemvalue="Application.KokoEatingBananas" />
         <item itemvalue="Application.CapacityToShip" />
         <item itemvalue="Application.CoinChange" />
         <item itemvalue="Application.Knapsack" />
-        <item itemvalue="Application.KadaneAlgorithm" />
       </list>
     </recent_temporary>
   </component>
