@@ -1,6 +1,7 @@
 package Dsa;
 
 import java.util.*;
+import java.util.Queue;
 
 public class numberOfIslands {
 
@@ -25,28 +26,40 @@ public class numberOfIslands {
 
     static int numIslands(char[][] grid) {
 
-        rows = grid.length;
-        cols = grid[0].length;
+        Queue<int[]> queue = new LinkedList<>();
 
-        boolean[][] visited = new boolean[rows][cols];
+        queue.offer(new int[]{i, j});
+        visited[i][j] = true;
 
-        int count = 0;
+        while (!queue.isEmpty()) {
 
-        for (int i = 0; i < rows; i++) {
+            int[] cell = queue.poll();
 
-            for (int j = 0; j < cols; j++) {
+            int row = cell[0];
+            int col = cell[1];
 
-                if (grid[i][j] == '1' && !visited[i][j]) {
+            for (int k = 0; k < 4; k++) {
 
-                    dfs(grid, visited, i, j);
+                int newRow = row + dr[k];
+                int newCol = col + dc[k];
 
-                    count++;
+                if (newRow >= 0 &&
+                        newRow < rows &&
+                        newCol >= 0 &&
+                        newCol < cols &&
+                        grid[newRow][newCol] == '1' &&
+                        !visited[newRow][newCol]) {
+
+                    visited[newRow][newCol] = true;
+
+                    queue.offer(new int[]{newRow, newCol});
                 }
             }
         }
-
-        return count;
     }
+
+
+
 
     public static void main(String[] args) {
 
