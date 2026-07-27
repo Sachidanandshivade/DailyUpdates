@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>DOM </h1>
+    <p>para 1</p> 
+    <p class="even">para 1</p> 
+    <button onclick="change()">Change</button>
+    <script>
+        let ee = document.getElementsByClassName("even");
+        for (let i = 0; i < ee.length; i++) {
+            ee[i].style.backgroundColor = "yellow";
+        }
+
+        function change(){
+            let elist = document.querySelectorAll("h1");
+            for (let i = 0; i < elist.length; i++) {
+                elist[i].innerText="DOCUMENT OBJECT MODEL";
+            }
+
+        let paras = document.getElementsByTagName("p");
+        for(let i=0;i< paras.length;i++) {
+            paras[i].style.backgroundColor="red"
+        }
+    }
+    </script>
+</body>
+</html>
