@@ -1,0 +1,98 @@
+JavaScript Events Reference Guide
+Mouse Events:
+
+  - click: Triggered when an element is clicked.
+  - dblclick: Triggered when an element is double-clicked.
+  - mouseover: Triggered when the mouse pointer enters an element.
+  - mouseout: Triggered when the mouse pointer leaves an element.
+  - mousemove: Triggered when the mouse moves within an element.
+
+Keyboard Events:
+
+  - keydown: Triggered when a key is pressed down.
+  - keyup: Triggered when a key is released.
+
+Form Events:
+
+  - submit: Triggered when a form is submitted.
+  - change: Triggered when the value of an input changes.
+  - input: Triggered every time a user types in an input field.
+  - focus: Triggered when an element gains focus.
+  - blur: Triggered when an element loses focus.
+
+Window Events:
+
+  - DOMContentLoaded: Triggered when the HTML document is fully loaded.
+  - resize: Triggered when the browser window is resized.
+  - scroll: Triggered when the user scrolls.
+
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Events</title>
+    <style>
+        body {
+            height: 300vh; /* Gives the page scrollable space to test scroll events */
+        }
+        #box {
+            height: 100px;
+            width: 100px;
+            border: 3px solid black;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1>Events in DOM</h1>
+    <div id="box"></div>
+    <hr>
+    <form>
+        <h2>Type something here</h2>
+        <input type="text" id="myInput" placeholder="start typing ....">
+        <p id="output" style="color: blue;">Key info will appear here</p>
+        <button type="submit">submit</button>
+    </form>
+
+    <script>
+        // DOM Elements
+        const box = document.getElementById("box");
+        const input = document.getElementById("myInput");
+        const output = document.getElementById("output");
+
+        // --- MOUSE EVENTS ---
+        // Changes the box color to red when clicked
+        box.addEventListener('click', () => {
+            box.style.backgroundColor = "red";
+        });
+
+        // --- KEYBOARD EVENTS ---
+        // Triggers when a key is released
+        input.addEventListener("keyup", (event) => {
+            console.log(`Key Up: ${event.key}`);
+        });
+
+        // Triggers when a character-producing key is pressed
+        input.addEventListener("keypress", (event) => {
+            output.innerText = `Key Pressed: ${event.key}`;
+        });
+
+        // --- WINDOW & DOCUMENT EVENTS ---
+        // Fires when the initial HTML document has been completely loaded
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log('DOM fully loaded');
+        });
+
+        // Fires when the browser window is resized
+        window.addEventListener('resize', () => {
+            alert("Warning: DO NOT RESIZE THE WINDOW");
+        });
+
+        // Fires whenever the user scrolls the page
+        window.addEventListener('scroll', () => {
+            console.log("User is scrolling");
+        });
+    </script>
+</body>
+</html>

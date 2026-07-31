@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class Styles</title>
+    <style>
+        .highlight {
+            background-color: brown;
+            color: orange;
+            font-weight: bold;
+        }
+        .theme {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="text">Our class styles in DOM</h1>
+    <button onclick="addstyle()">add</button>
+    <button onclick="removestyle()">remove</button>
+    <button onclick="togglestyle()">toggle</button>
+    <button onclick="containstyle()">contain</button>
+<a id="myLink" href="https://kodnest.com">Go to kodnest</a>
+    <br><br>
+
+    <button onclick="setAttributeFun()">setattr</button>
+    <button onclick="getAttributeFun()">getattr</button>
+    <button onclick="removeAttributeFun()">removeAttr</button>
+    
+    <script>
+        let link = document.getElementById("myLink");
+
+        function setAttributeFun() {
+            // Changes the target attribute to open link in a new tab
+            link.setAttribute("target", "_blank");
+            alert("Attribute 'target=_blank' added!");
+        }
+
+        function getAttributeFun() {
+            // Gets the href attribute value
+            let hrefValue = link.getAttribute("href");
+            alert("Attribute href value is: " + hrefValue);
+        }
+
+        function removeAttributeFun() {
+            // Removes the href attribute from the anchor tag
+            link.removeAttribute("href");
+            alert("Attribute 'href' removed!");
+        }
+        let card = document.getElementById("text");
+        let b = document.querySelector("body");
+
+        function addstyle(){
+            card.classList.add("highlight")
+        }
+
+        function removestyle() {
+            card.classList.remove("highlight")
+        }
+
+        function togglestyle() {
+            b.classList.toggle("theme")
+        }
+
+        function containstyle() {
+            if(card.classList.contains("highlight")) {
+                alert("Highlight as been applied")
+            }
+            else {
+                alert("Highlight as not been applied")
+            }
+        }
+    </script>
+</body>
+</html>
