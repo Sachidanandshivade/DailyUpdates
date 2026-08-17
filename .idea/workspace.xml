@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9541555-8a56-4bd6-b216-31d8dc5cf770" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/OOps/Outer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Developer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaDeveloper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOps/Composition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOps/Final.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOps/Final.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOps/Finall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOps/Finall.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/OOps/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOps/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PythonDeveloper.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

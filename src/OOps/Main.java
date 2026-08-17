@@ -27,6 +27,12 @@ public class Main {
 
         myMethod(new JavaDeveloper());
         myMethod(new PythonDeveloper());
+
+        Outer out = new Outer();
+        out.outerDisplay();
+        Outer.Inner inr = out.new Inner();
+        inr.innerDisplay();
+
     }
 
     static void myMethod(Developer dev) {
