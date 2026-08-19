@@ -7,19 +7,25 @@ import Memo from './components/Memo';
 import Callback from './components/Callback';
 import Reference from './components/Reference';
 import Card1 from './components/Context';
+import { BrowserRouter } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import { Route,Routes } from 'react-router-dom';
 
 function App() {
    const ThemeContext = createContext();
    const theme = 'dark';
    return (
       <>
+      <BrowserRouter>
       <ThemeContext.Provider value={theme}>
-    <Greeting />
-    <Memo />
-    <Callback />
-    <Reference />
-    <Card1 />
+         <Navbar />
+         <Routes>
+            <Route path = "/Greeting"  element= {<Greeting />}></Route>
+            <Route path = "/Memo"  element= {<Memo />}></Route>
+            <Route path = "/Reference"  element= {<Reference />}></Route>
+         </Routes>
     </ThemeContext.Provider>
+    </BrowserRouter>
     </>
    );
 }

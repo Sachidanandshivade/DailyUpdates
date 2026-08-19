@@ -14,11 +14,11 @@ export default function Greeting() {
             setCount(0);
         }
 
-        useEffect(()=> {
-            setTimeout(() => {
-                setCount(count + 1);
-            },1000);
-        },[count]);
+        // useEffect(()=> {
+        //     setTimeout(() => {
+        //         setCount(count + 1);
+        //     },1000);
+        // },[count]);
         return (
             <>
       <h1>Hello, {name}!</h1>
