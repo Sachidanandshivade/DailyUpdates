@@ -19,4 +19,10 @@ public class Car {
         System.out.println(brand +" Car Engine Stopped");
     }
 
+    public static void main(String[] args) {
+        Car c = new Car();
+        c.brand = "Toyota";
+        c.start();
+    }
+
 }
