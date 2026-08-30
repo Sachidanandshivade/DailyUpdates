@@ -9,12 +9,50 @@
     <script>
         const movieApi = "http://www.omdbapi.com/?i=tt3896198&apikey=1600ab7d";
         const user = fetch(movieApi)
-        .then(function(orderId){
-            return proceedToPayment(orderId);
+
+        const cart = ["tshirt","pant","shirt", "hoodie","shorts"];
+        createOrder(cart)
+         .then(function (orderId) {
+            console.log(orderId);
+            return orderId;
         })
-        .then(function (data) {
-            console.log(data);
+        .then(function(orderId){
+            console.log("proceed");
+             return proceedToPayment(orderId);
+             
+         })
+        .then(function(payment){
+            console.log(payment);
+        })
+        .catch(function (err){
+            console.log(err.message);
         });
+
+        function createOrder() {
+            const pr = new Promise(function(resolve,reject){
+                if(!validateCart(cart)){
+                const err = new Error("Caart is not valid");
+                reject(err);
+                }
+
+                const orderId ="12345";
+                if(orderId) {
+                    resolve(orderId);
+                }
+            });
+
+            return pr;
+        }
+
+        function validateCart(cart) {
+            return true;
+        }
+
+        function proceedToPayment(orderId) {
+            return new Promise(function(resolve,reject) {
+                resolve("Payment Successful");
+            });
+        }
     </script>
 </body>
 </html>

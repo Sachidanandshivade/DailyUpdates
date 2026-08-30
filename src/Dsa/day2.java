@@ -79,3 +79,83 @@ for(int i=0;i<n;i++) {
     }
 }
 
+
+
+
+//Sliding window
+long wSum =0;
+
+if(n<k) return -1;
+
+for(int i=0;i<k;i++) {
+    wSum += arr[i];
+}
+
+for(int i=0; i<n-k;i++) {
+    wSum = wSum - arr[i] + arr[i+k];
+    max = Math.max(max,wSum);
+}
+
+return max;
+
+
+wSum = 0;
+for(int i=0;i<n;i++) {
+    wSum += arr[i];
+}
+
+double avg = wSum/k;
+for(int i =0; i<n-k;i++){
+    wSum = wSum-arr[i]+arr[i+k];
+    avg = Math.max(avg,wSum/k);
+}
+
+return avg;
+
+
+int wSum = 0;
+int left = 0;
+minL = Integer.MAX_VALUE;
+for(int i=0;i<n;i++) {
+    wSum += arr[i];
+
+    if(wSum >= target) {
+        minL = Math.min(minL,i-left+1);
+        wSum -= arr[left];
+        left++;
+    }
+}
+
+return minL == Integer.MAX_VALUE?0:minLength;
+
+
+long[] result = new long[n-k+1];
+int idx = 0;
+Deque<Integer> deque = new LinkedList<>();
+for(int i=0;i<k;i++) {
+    if(arr[i]<0) {
+        dequeue.addLast(i);
+    }
+}
+
+if(!deque.isEmpty()) {
+    result[idx++] = arr[dequeu.peekFirst()];
+}else{
+    result[idx++] = 0;
+}
+
+HashSet<Character,Integer> set = new HashSet<>();
+int max = 0;
+int left = 0;
+
+for(int right=0; right < s.length();right++) {
+    char ch = s.charAt(right);
+    while(set.contains(ch)) {
+        set.remove(s.charAt(left));
+        left++;
+    }
+    set.add(ch);
+    max = Math.max(max,right-left+1);
+}
+return max;
+
