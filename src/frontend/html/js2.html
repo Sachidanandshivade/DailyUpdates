@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        async function getUsers() {
+            try{
+            const response =await fetch("https://dummyjson.com/users");
+            const data = await response.json();
+            if(!response.ok) {
+                throw new Error("Request failed");
+            }
+            console.log(data);
+            }catch(error) {
+                console.log("something went wrong",error.message);
+            }
+        }
+        getUsers();
+
+        const[users,products,posts] = await Promise.all([
+            fetch("/users"),
+            fetch("/products"),
+            fetch("/posts")
+        ]);
+
+        const p1 = Promise.resolve("A");
+        const p2 = Promise.resolve("B");
+        const p3 = Promise.resolve("C");
+
+        const result = await Promise.all([p1,p2,p3]);
+
+        console.log(result);
+
+        const tasks = [
+            {text: "learn Js",completed: false},
+            {text: "Build Project", completed: true}
+        ];
+
+        localStorage.setItem("tasks",JSON.stringify(tasks));
+        const savedTasks = JSON.parse(localStorage.getItem("tasks"));
+        console.log(savedTasks[1].text);
+        console.log(savedTasks[1].completed);
+    </script>
+</body>
+</html>

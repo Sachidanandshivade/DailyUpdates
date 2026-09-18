@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+
+    <style>
+        .completed {
+            text-decoration: line-through;
+            opacity: 0.5;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        button {
+            margin-left: 8px;
+        }
+
+        input {
+            margin: 5px;
+            padding: 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+<script>
+
+const input = document.createElement("input");
+input.placeholder = "Enter the task";
+
+const searchInput = document.createElement("input");
+searchInput.placeholder = "Search tasks...";
+
+const button = document.createElement("button");
+button.type = "button";
+button.textContent = "ADD TASK";
+
+const ul = document.createElement("ul");
+
+document.body.append(searchInput);
+document.body.append(input);
+document.body.append(button);
+document.body.append(ul);
+
+
+// Load tasks
+let tasks = JSON.parse(localStorage.getItem("tasks")) || [];
+
+
+// --------------------------------
+// DISPLAY TASK
+// --------------------------------
+
+function addTask(task) {
+
+    const li = document.createElement("li");
+
+    li.textContent = task.text;
+
+    li.dataset.id = task.id;
+
+
+    // COMPLETE BUTTON
+    const completeButton = document.createElement("button");
+
+    completeButton.type = "button";
+
+    completeButton.textContent =
+        task.completed ? "Undo" : "Complete";
+
+
+    completeButton.addEventListener("click", () => {
+
+        task.completed = !task.completed;
+
+        completeButton.textContent =
+            task.completed ? "Undo" : "Complete";
+
+        li.classList.toggle(
+            "completed",
+            task.completed
+        );
+
+        localStorage.setItem(
+            "tasks",
+            JSON.stringify(tasks)
+        );
+    });
+
+
+    // EDIT BUTTON
+    const editButton = document.createElement("button");
+
+    editButton.type = "button";
+    editButton.textContent = "Edit";
+
+
+    editButton.addEventListener("click", () => {
+
+        const newTask = prompt(
+            "Enter new task",
+            task.text
+        );
+
+        if (newTask === null) {
+            return;
+        }
+
+        if (newTask.trim() === "") {
+            return;
+        }
+
+        task.text = newTask;
+
+        li.firstChild.textContent = task.text;
+
+        localStorage.setItem(
+            "tasks",
+            JSON.stringify(tasks)
+        );
+    });
+
+
+    // DELETE BUTTON
+    const deleteButton = document.createElement("button");
+
+    deleteButton.type = "button";
+    deleteButton.textContent = "Delete";
+
+
+    deleteButton.addEventListener("click", () => {
+
+        li.remove();
+
+        tasks = tasks.filter(
+            t => t.id !== task.id
+        );
+
+        localStorage.setItem(
+            "tasks",
+            JSON.stringify(tasks)
+        );
+    });
+
+
+    li.append(completeButton);
+    li.append(editButton);
+    li.append(deleteButton);
+
+    ul.append(li);
+
+
+    if (task.completed) {
+        li.classList.add("completed");
+    }
+}
+
+
+// --------------------------------
+// LOAD SAVED TASKS
+// --------------------------------
+
+for (let task of tasks) {
+    addTask(task);
+}
+
+
+// --------------------------------
+// ADD TASK
+// --------------------------------
+
+button.addEventListener("click", () => {
+
+    if (input.value.trim() === "") {
+        console.log("Please enter a task");
+        return;
+    }
+
+
+    const task = {
+        id: Date.now(),
+        text: input.value,
+        completed: false
+    };
+
+
+    tasks.push(task);
+
+    localStorage.setItem(
+        "tasks",
+        JSON.stringify(tasks)
+    );
+
+
+    addTask(task);
+
+    input.value = "";
+});
+
+
+// --------------------------------
+// SEARCH
+// --------------------------------
+
+searchInput.addEventListener("input", () => {
+
+    const searchText =
+        searchInput.value.toLowerCase();
+
+    ul.innerHTML = "";
+
+
+    const filteredTasks = tasks.filter(task =>
+        task.text
+            .toLowerCase()
+            .includes(searchText)
+    );
+
+
+    for (let task of filteredTasks) {
+        addTask(task);
+    }
+});
+
+</script>
+
+</body>
+</html>

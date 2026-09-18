@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // const list1 = document.createElement("ul");
+        // for(let i=1;i<=3;i++) {
+        //     const li = document.createElement("li");
+        //     const button = document.createElement("button");
+        //     li.textContent = `Task ${i}`;
+        //     button.textContent = "Delete";
+
+        //     li.append(button);
+        //     list1.append(li);
+        // }
+        // document.body.append(list1);
+        // list1.addEventListener("click" , (event) => {
+        //     const button = event.target.closest("button");
+        //     if(button) {
+        //         button.parentElement.remove();
+        //     }
+        // });
+        const form = document.createElement("form");
+
+const input = document.createElement("input");
+input.placeholder = "Enter your name";
+
+const button = document.createElement("button");
+button.textContent = "Submit";
+
+form.append(input, button);
+
+
+form.addEventListener("submit", (event) => {
+    event.preventDefault();
+    console.log(`hello ${input.value}`);
+    message.textContent = `hello ${input.value}`;
+    input.value = "";
+});
+
+const message = document.createElement("p");
+document.body.append(message);
+const search = document.createElement("input");
+
+search.placeholder = "Type something...";
+
+document.body.append(search);
+search.addEventListener("input", () => {
+    console.log("INPUT");
+});
+
+search.addEventListener("change", () => {
+    console.log("CHANGE");
+});
+document.body.append(form);
+
+input.addEventListener("input", () => {
+
+    const searchText = input.value;
+    const filterNames = names.filter(name => name.toLowerCase().includes(input.value.toLowerCase()));
+    
+     list.innerHTML = "";
+
+     if(filterNames.length === 0) {
+        const li = document.createElement("li");
+        li.textContent = "no user found";
+        list.append(li);
+     }
+
+    filterNames.forEach(name => {
+        const li = document.createElement("li");
+        li.textContent = name;
+        list.append(li);
+    });
+
+});
+
+let timer;
+
+searchInput.addEventListener("input", () => {
+
+    // cancel previous timer
+    clearTimeout(timer);
+    timer = setTimeout(()=>{
+        console.log("Searching...", searchInput.value);
+    },500);
+
+
+    // create new timer
+
+
+});
+
+
+
+input.addEventListener("input", () => {
+    clearTimeout(timer);
+
+    timer = setTimeout(() => {
+        // fetch here
+         fetch("https://dummyjson.com/users")
+         .then(response => response.json())
+         .then(data => {
+        for(let user of data.users){
+            if(user.firstName.toLowerCase().includes(input.value.toLowerCase())){
+            console.log(user.firstName);
+    }
+    }
+});
+    }, 500);
+});
+
+const searchInput = document.createElement("input");
+searchInput.placeholder = "Search users...";
+
+const list = document.createElement("ul");
+
+document.body.append(searchInput, list);
+
+
+
+searchInput.addEventListener("input", () => {
+
+    clearTimeout(timer);
+
+    list.innerHTML = "";
+
+    timer = setTimeout(() => {
+
+        fetch("https://dummyjson.com/users")
+            .then(response => response.json())
+            .then(data => {
+
+                for (let user of data.users) {
+
+                    if (
+                        user.firstName
+                            .toLowerCase()
+                            .includes(searchInput.value.toLowerCase())
+                    ) {
+
+                        const li = document.createElement("li");
+                        li.textContent = user.firstName;
+
+                        list.append(li);
+                    }
+                }
+
+            });
+
+    }, 500);
+});
+
+
+
+    </script>
+</body>
+</html>
