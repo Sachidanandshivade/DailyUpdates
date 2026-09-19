@@ -7,11 +7,66 @@
 </head>
 <body>
     <script>
-        const numbers = [1,2,3,4,5];
-        const result = numbers.map(num => num*2);
-        console.log(result);
-        const filtrRes = numbers.filter(num => num>3);
-        console.log(filtrRes);
+        // const numbers = [1,2,3,4,5];
+        // const result = numbers.map(num => num*2);
+        // console.log(result);
+        // const filtrRes = numbers.filter(num => num>3);
+        // console.log(filtrRes);
+
+        //Prototypes
+
+//         function Person(name) {
+//             this.name = name;
+//         }
+
+//         Person.prototype.sayHello = function() {
+//             console.log(`Hello ${this.name}`);
+//         }
+
+//         const p1 = new Person("Tony");
+//         const p2 = new Person("Rahul");
+
+//         p1.sayHello();
+//         p2.sayHello();
+
+
+//         class Person {
+//     constructor(name) {
+//         this.name = name;
+//     }
+
+//     sayHello() {
+//         return `Hello ${this.name}`;
+//     }
+// }
+
+// const p1 = new Person("Tony");
+
+// console.log(p1.hasOwnProperty("name"));
+// console.log(p1.hasOwnProperty("sayHello"));
+// console.log("sayHello" in p1);
+// console.log(Object.getPrototypeOf(p1) === Person.prototype);
+
+// function introduce() {
+//     console.log(`My name is ${this.name}`);
+// }
+
+// const user ={
+//     name: "Tony"
+// };
+
+// introduce.call(user);
+
+function introduce(age,city) {
+    console.log(this.name,age,city);
+}
+
+const user = {
+    name: "Tony"
+};
+
+const newfun=introduce.bind(user,25,"banglore");
+newfun();
     </script>
 </body>
 </html>
