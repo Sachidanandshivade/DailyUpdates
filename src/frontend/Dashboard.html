@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dash.css">
+</head>
+<body>
+    <div class="dashboard">
+        <aside class="sidebar">
+            <div class="logo">
+                My-DashBoard
+            </div>
+            <div class="sidebar-nav">
+                <a href="Dashboard.html">Dashboard</a>
+                <a href="#">Analytics</a>
+                <a href="#">Customers</a>
+                <a href="#">Products</a>
+                <a href="#">Orders</a>
+            </div>
+            <div class="sidebar-bottom">
+                 <a href="#">Settings</a>
+                <a href="#">Help</a>
+            </div>
+        </aside>
+        <div class="main">
+            <header class="navbar">
+                <div class="search">
+                    <input
+                        type="text"
+                        placeholder="Search..."
+                    >
+                </div>
+                <div class="user">
+                    <span class="notification">🔔</span>
+                    <div class="avatar">JS</div>
+                    <span>John Doe</span>
+                </div>
+            </header>
+
+            <main class="content">
+                <section class="page-header">
+                    <h1>Dashboard</h1>
+                    <p>Welcome back,John</p>
+                </section>
+
+                <section class = "stats">
+
+                    <div class="stat-card">
+                        <span>Revenue</span>
+                        <h2>$24,500</h2>
+                        <small>+12.5%</small>
+                    </div>
+
+                    <div class="stat-card">
+                        <span>Orders</span>
+                        <h2>1,248</h2>
+                        <small>+8.2%</small>
+                    </div>
+
+                    <div class="stat-card">
+                        <span>Customers</span>
+                        <h2>8,549</h2>
+                        <small>+5.4%</small>
+                    </div>
+
+                    <div class="stat-card">
+                        <span>Growth</span>
+                        <h2>18.2%</h2>
+                        <small>+2.1%</small>
+                    </div>
+                </section>
+
+                <section class="analytics">
+                    <div class="chart-card">
+                        <h2>Revenue</h2>
+                        <div class="chart">
+                            Chart goes here
+                        </div>
+                    </div>
+
+                    <div class="activity-card">
+                        <h2>Recent Activity</h2>
+
+                        <ul>
+                            <li>Order #1024 completed</li>
+                            <li>Payment received</li>
+                            <li>New customer registered</li>
+                            <li>Order #1023 created</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="orders">
+                    <h2>Recent Orders</h2>
+                    <div class="table-container">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Order</th>
+                                    <th>Customer</th>
+                                    <th>Date</th>
+                                    <th>Amount</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+
+                             <tbody>
+
+                                <tr>
+                                    <td>#1024</td>
+                                    <td>Rahul</td>
+                                    <td>26 Sep 2026</td>
+                                    <td>₹4,500</td>
+                                    <td> <span class="status completed">Completed</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>#1023</td>
+                                    <td>Priya</td>
+                                    <td>25 Sep 2026</td>
+                                    <td>₹2,800</td>
+                                    <td> <span class="status pending">Pending</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td>#1022</td>
+                                    <td>Amit</td>
+                                    <td>24 Sep 2026</td>
+                                    <td>₹1,250</td>
+                                    <td><span class="status completed">Completed</span></td>
+                                </tr>
+
+                            </tbody>
+                            
+                        </table>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+</body>
+</html>
