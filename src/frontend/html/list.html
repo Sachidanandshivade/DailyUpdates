@@ -5,25 +5,40 @@
     <title>Lists in Html</title>
 </head>
 <body>
-    <h4>Ordered List</h4>
-    <ol type="a" start="24">
-        <li>Idly</li>
-        <li>Poha</li>
-        <li>Dosa</li>
-    </ol>
+    <label for="cars">Choose car</label>
+    <select id="cars" name="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab" >Saab</option>
+        <option value="fiat">Fiat</option>
+    </select>
 
-    <ul type="square">
-        <li>Idly</li>
-        <li>Poha</li>
-        <li>Dosa</li>
-    </ul>
-<dl>
-    <dt>HTML
-    </dt>
-    <dd>Hyper text markup language</dd>
-    <dt>css</dt>
-    <dd>Cascading style sheet</dd>
-</dl>
+    <input list="browsers"> 
 
+    <datalist id="browsers">
+    <option value="Edge">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+
+    <br>
+    <textarea rows="10" cols="30"> enter the text</textarea>
+
+    <form>
+  <label for="fname">First name:</label>
+  <input type="month" id="fname" name="fname"><br><br>
+  <input type="hidden" id="custId" name="custId" value="3487">
+  <input type="submit" value="Submit">
+
+  <video width="320" height="240" controls>
+    <source src="movie.mp4" type="video/mp4">
+  </video>
+
+  <audio controls autoplay>
+    <source src="horse.ogg" type="audio/ogg">
+  </audio>
+</form>
+<script src="main.js"></script>
 </body>
 </html>
